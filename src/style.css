@@ -63,7 +63,7 @@
   .shop {
     display: grid;
     grid-template-columns: repeat(3, 223px);
-    gap: 150px;
+    gap: 200px;
     justify-content: center;
   }
   

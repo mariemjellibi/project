@@ -3,6 +3,7 @@ body
     margin: 0;
     padding: 0;
     background-color: beige;
+    background-image: url("https://img.freepik.com/free-photo/stylish-lady-trench-hat-shyly-poses-beige-background-cute-girl-striped-sweater-beige-cloak-red-beret-jumps_197531-18668.jpg?w=1060&t=st=1692874166~exp=1692874766~hmac=91cbc2e091172546661515de0a4af291144f82b3af62ebddae74e4ed6d1dbbea");
     font-family: 'Arial';
 }
 .login{
@@ -11,7 +12,7 @@ body
         margin: auto;
         margin: 10 0 0 300px;
         padding: 40px;
-        background:rgb(242, 208, 195); 
+        /* background:rgb(242, 208, 195);  */
         border-radius: 25px ;
 
 }
@@ -55,7 +56,7 @@ span{
 }
 a{
     float: right;
-    background-color: rgb(107, 106, 106);
+    /* background-color: rgb(107, 106, 106); */
 }
 * {box-sizing: border-box}
 
@@ -213,5 +214,23 @@ button:hover {
       cursor: pointer;
     }
   }
-  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* background-color: #f5f5f5; */
+   }
+   .nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    margin-right: 20px; 
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 20px;
+  }
   

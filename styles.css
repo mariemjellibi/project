@@ -12,7 +12,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color:lightsalmon;
+    background-color:black;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -28,17 +28,17 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: rgb(182, 180, 180);
+    /* background-color: rgb(182, 180, 180); */
     padding: 10px;
     padding-left: 20px;
     position: relative;
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 50px;
-    margin-right: 500px;
+    margin-right: 300px;
   }
   body{
     background-color: beige;
-  }
+    background-image: url("https://img.freepik.com/free-photo/stylish-lady-trench-hat-shyly-poses-beige-background-cute-girl-striped-sweater-beige-cloak-red-beret-jumps_197531-18668.jpg?w=1060&t=st=1692874166~exp=1692874766~hmac=91cbc2e091172546661515de0a4af291144f82b3af62ebddae74e4ed6d1dbbea")}
   .titre{
     font-size: 20px;
     text-decoration: underline;
@@ -54,4 +54,23 @@ input[type=text], select, textarea {
     width: 300px;
     margin-left: 600px;
     
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #f5f5f5;
+   */}
+   .nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    margin-right: 20px; 
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 20px;
   }
